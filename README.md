@@ -20,8 +20,17 @@ To run program, open a terminal of your choice, go to the Vstat directory, and r
 
 if this does not work then try to recompile with:
 
-```gcc stat.c -lm -o stat```
+```gcc stat.c -o stat```
 
 If you want it to open with terminal then open the ".bashrc" file in your home directory and at the bottom add:
 
 ```cd && (your directory) && ./stat && cd```
+
+If it says "Permission denied" then run:
+
+```su```
+
+Enter the root password, then run:
+
+```chmod u+x stat```
+
