@@ -24,7 +24,7 @@ if this does not work then try to recompile with:
 
 If you want it to open with terminal then open the ".bashrc" file in your home directory and at the bottom add:
 
-```cd && (your directory) && ./stat && cd```
+```cd && cd (your directory) && ./stat && cd```
 
 If it says "Permission denied" then run:
 
