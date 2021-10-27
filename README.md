@@ -1,6 +1,6 @@
 # Vstat
 
-NEW SPOOKY EDITION WITH GPU SUPPORT!!
+## NEW SPOOKY EDITION WITH GPU SUPPORT!!
 
 ![Vstat3](https://user-images.githubusercontent.com/88514898/138978494-7e39b3a9-9b52-40f9-a017-b7627287dba9.png)
 
