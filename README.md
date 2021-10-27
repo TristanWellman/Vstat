@@ -4,13 +4,15 @@
 
 ![Vstat3](https://user-images.githubusercontent.com/88514898/138978494-7e39b3a9-9b52-40f9-a017-b7627287dba9.png)
 
-Vstat is a simple program I made for mostly myself on my Arch linux system. I made Vstat because the idea of having your system information displayed when you open the terminal is just nice, I would say I tried to challenge myself with this but I really didn't, I overestimated the difficulty of this by a lot, the longest part was probably going through a bunch of system files to try and find where certain info was. 
+Vstat is a program written in c. Vstat displays your certain system information in your terminal like CPU, GPU, Memory, and more. I made Vstat because the idea of having your system information displayed when you open the terminal is just nice.
 
 
 # NOTE: 
 this is definatly a prototype that I made for my own system.
 
 This my not work on your system. for example the "timezone" file may not work on all arch systems. I may update this in the future with a nicer looks and more info, I will probably make a(n) update soon that allows it to still run if it failes to grab a file like "timezone".
+
+If you know or think you have the timezone file then you can go into the code and un-comment the cuncks of code int the "info" function.
 
 this is made only for arch distros.
 
