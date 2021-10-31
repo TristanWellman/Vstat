@@ -2,7 +2,7 @@
 
 ### NEW SPOOKY EDITION WITH GPU SUPPORT!!
 
-![Vstat3](https://user-images.githubusercontent.com/88514898/138978494-7e39b3a9-9b52-40f9-a017-b7627287dba9.png)
+![Vstat4](https://user-images.githubusercontent.com/88514898/139603929-b5bf50ec-f106-4ce4-9473-6b9048fa6ec5.png)
 
 Vstat is a program written in c. Vstat displays your certain system information in your terminal like CPU, GPU, Memory, and more. I made Vstat because the idea of having your system information displayed when you open the terminal is just nice.
 
