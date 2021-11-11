@@ -14,6 +14,8 @@ Vstat is a program written in c. Vstat displays your certain system information 
 # NOTE: 
 This my not work on your system. for example the "timezone" file may not work on all arch systems. I may update this in the future with a nicer looks and more info, I will probably make an update soon that allows it to still run if it failes to grab a file like "timezone".
 
+You may need to configure the "local ip" command in the code if it looks weird on your system.
+
 If you know or think you have the timezone file then you can go into the code and un-comment the cuncks of code in the "info" function.
 
 as of now this is made only for arch distros and some debian like raspbianOS.
