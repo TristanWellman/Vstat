@@ -2,7 +2,11 @@
 
 ### NEW SPOOKY EDITION WITH GPU SUPPORT!!
 
+### Arch linux (x86)
 ![Vstat4](https://user-images.githubusercontent.com/88514898/139603929-b5bf50ec-f106-4ce4-9473-6b9048fa6ec5.png)
+
+### Raspberry Pi (ARM)
+![VstatPI](https://user-images.githubusercontent.com/88514898/141326994-ca13473b-131a-4f97-a4a5-cadaae697978.png)
 
 Vstat is a program written in c. Vstat displays your certain system information in your terminal like CPU, GPU, Memory, and more. I made Vstat because the idea of having your system information displayed when you open the terminal is just nice.
 
