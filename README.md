@@ -15,6 +15,17 @@ Vstat is a program written in c. Vstat displays your certain system information 
 This my not work on your system. for example the "timezone" file may not work on all arch systems. I may update this in the future with a nicer looks and more info, I will probably make an update soon that allows it to still run if it failes to grab a file like "timezone".
 
 You may need to configure the "local ip" command in the code if it looks weird on your system.
+Example:
+
+I changed line 140 in "stat.c" from:
+
+```LIP = popen("/bin/ip rout list | grep src | grep 100", "r");```
+
+to:
+
+```LIP = popen("/bin/ip rout list | grep src | grep link", "r");```
+
+this change was made because the "ip rout list" output may be different for each system and internet connection.
 
 If you know or think you have the timezone file then you can go into the code and un-comment the cuncks of code in the "info" function.
 
