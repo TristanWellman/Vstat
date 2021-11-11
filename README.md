@@ -12,17 +12,14 @@ Vstat is a program written in c. Vstat displays your certain system information 
 
 
 # NOTE: 
-this is definatly a prototype that I made for my own system.
+This my not work on your system. for example the "timezone" file may not work on all arch systems. I may update this in the future with a nicer looks and more info, I will probably make an update soon that allows it to still run if it failes to grab a file like "timezone".
 
-This my not work on your system. for example the "timezone" file may not work on all arch systems. I may update this in the future with a nicer looks and more info, I will probably make a(n) update soon that allows it to still run if it failes to grab a file like "timezone".
+If you know or think you have the timezone file then you can go into the code and un-comment the cuncks of code in the "info" function.
 
-If you know or think you have the timezone file then you can go into the code and un-comment the cuncks of code int the "info" function.
-
-this is made only for arch distros.
-
+as of now this is made only for arch distros and some debian like raspbianOS.
 
 # Run
-To run program, open a terminal of your choice, go to the Vstat directory, and run
+To run program, open a terminal of your choice, go to the Vstat directory, go to desired folder for example(Vstat/Arch), and run
 
 ```./stat```
 
